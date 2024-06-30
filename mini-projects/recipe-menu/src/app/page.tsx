@@ -4,17 +4,17 @@ import Food from '@/public/1.webp';
 export default function Home() {
     return (
         <div className="flex flex-col gap-3">
-            <section className="flex lg:flex-row flex-col items-center gap-3">
-                <h1 className="text-[#ff6600] lg:text-left text-center flex-grow">
+            <section className="flex flex-col items-center gap-3 lg:flex-row">
+                <h1 className="flex-grow text-center text-[#ff6600] lg:text-left">
                     Hello, John.{' '}
                     <span className="font-[600]">Let's get cooking.</span>
                 </h1>
-                <div className="flex sm:flex-row flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 sm:flex-row">
                     <p className="graytext text-sm">Don't know what to cook?</p>
                     {/* TODO: Button component */}
-                    <div className="w-fit border border-[#ff5e01] hover:shadow-[0_0_5px_0_#ffab81] rounded-lg overflow-clip cursor-pointer">
+                    <div className="w-fit cursor-pointer overflow-clip rounded-lg border border-[#ff5e01] hover:shadow-[0_0_5px_0_#ffab81]">
                         <a
-                            className=" text-[#ff5e01] hover:text-white hover:bg-[#ff5e01] hover:shadow-[inset_0_-5px_10px_#ffab81] transition-all ease-in-out duration-300  flex flex-row items-center py-[0.15rem] px-[0.75rem] gap-[0.6rem] text-sm"
+                            className="flex flex-row items-center gap-[0.6rem] px-[0.75rem] py-[0.15rem] text-sm text-[#ff5e01] transition-all duration-300 ease-in-out hover:bg-[#ff5e01] hover:text-white hover:shadow-[inset_0_-5px_10px_#ffab81]"
                             target="_blank"
                         >
                             Randomize a recipe
@@ -22,13 +22,13 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="flex md:flex-row flex-col w-full bg-[#ffffff66] border-style rounded-lg overflow-clip md:h-[60dvh]  h-fit relative">
-                <div className="flex flex-col flex-grow p-[1.7rem]">
+            <section className="border-style flex h-fit w-full flex-col overflow-clip rounded-lg bg-[#ffffff66] md:min-h-[60dvh] md:flex-row">
+                <div className="flex flex-grow flex-col p-[1.7rem]">
                     <h5 className="graytext">MEAL OF THE DAY</h5>
                     <div className="flex flex-col">
                         <h3>Classic Margherita Pizza</h3>
                     </div>
-                    <div className="flex flex-row items-center gap-[1rem] mt-[0.5rem]">
+                    <div className="mt-[0.5rem] flex flex-row items-center gap-[1rem]">
                         <div className="flex flex-row items-center gap-[1rem]">
                             <p>•</p>
                             <p>•</p>
@@ -38,44 +38,44 @@ export default function Home() {
                         </div>
                         <p className="graytext">82 reviews</p>
                     </div>
-                    <div className="flex md:flex-row flex-col justify-evenly gap-2 border-style rounded-md shadow-sm py-[0.5rem] px-[0.4rem] mt-[1rem]">
-                        <p className="bg-[#d7fbff] rounded-md py-[0.1rem] px-[0.4rem]">
+                    <div className="border-style mt-[1rem] flex flex-col justify-evenly gap-2 rounded-md px-[0.4rem] py-[0.5rem] shadow-sm md:flex-row">
+                        <p className="rounded-md bg-[#d7fbff] px-[0.4rem] py-[0.1rem]">
                             25 Mins
                         </p>
-                        <p className="bg-[#f0ffd7] rounded-md py-[0.1rem] px-[0.4rem]">
+                        <p className="rounded-md bg-[#f0ffd7] px-[0.4rem] py-[0.1rem]">
                             4 Servings
                         </p>
-                        <p className="bg-[#ecd7ff] rounded-md py-[0.1rem] px-[0.4rem]">
+                        <p className="rounded-md bg-[#ecd7ff] px-[0.4rem] py-[0.1rem]">
                             500 Calories
                         </p>
                     </div>
                     <div className="mt-[1.5rem] flex flex-col gap-[0.5rem]">
                         <p className="graytext font-[500]">Ingredients</p>
-                        <div className="w-full flex flex-row flex-wrap justify-between gap-[0.5rem]">
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                        <div className="flex w-full flex-row flex-wrap justify-between gap-[0.5rem]">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Pizza dough
                             </p>
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Tomato sauce
                             </p>
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Fresh mozzarella cheese
                             </p>
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Fresh basil leaves
                             </p>
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Olive oil
                             </p>
-                            <p className="py-1 px-4 border-style border-[1.5px] bg-transparent hover:bg-[#ffddc5af] transition-all w-fit rounded-full code">
+                            <p className="border-style code w-fit rounded-full border-[1.5px] bg-transparent px-4 py-1 transition-all hover:bg-[#ffddc5af]">
                                 Salt and pepper to taste
                             </p>
                         </div>
                     </div>
                     {/* TODO: Button component */}
-                    <div className="mt-[2rem] w-fit border border-[#ff5e01] hover:shadow-[0_0_5px_0_#ffab81] rounded-lg overflow-clip cursor-pointer">
+                    <div className="mt-[2rem] w-fit cursor-pointer overflow-clip rounded-lg border border-[#ff5e01] hover:shadow-[0_0_5px_0_#ffab81]">
                         <a
-                            className="text-white font-[500] bg-[#ff5e01] hover:shadow-[inset_0_-5px_10px_#ffab81] transition-all ease-in-out duration-300  flex flex-row items-center py-[0.15rem] px-[0.75rem] gap-[0.6rem]"
+                            className="flex flex-row items-center gap-[0.6rem] bg-[#ff5e01] px-[0.75rem] py-[0.15rem] font-[500] text-white transition-all duration-300 ease-in-out hover:shadow-[inset_0_-5px_10px_#ffab81]"
                             target="_blank"
                         >
                             Get recipe
@@ -85,7 +85,7 @@ export default function Home() {
                 <Image
                     src={Food}
                     alt=""
-                    className="md:h-full h-auto md:w-auto w-full"
+                    className="h-auto w-full md:h-full md:w-auto"
                 />
             </section>
         </div>

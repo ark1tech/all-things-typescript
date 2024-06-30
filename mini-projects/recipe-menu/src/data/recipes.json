@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Classic Margherita Pizza",
+        "description": "A classic Italian pizza featuring a thin crust topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
         "ingredients": [
             "Pizza dough",
             "Tomato sauce",
@@ -34,6 +35,7 @@
     {
         "id": 2,
         "name": "Vegetarian Stir-Fry",
+        "description": "A healthy mix of colorful vegetables stir-fried with soy sauce and spices, served over rice or noodles.",
         "ingredients": [
             "Tofu, cubed",
             "Broccoli florets",
@@ -69,6 +71,7 @@
     {
         "id": 3,
         "name": "Chocolate Chip Cookies",
+        "description": "Delicious cookies loaded with gooey chocolate chips, crispy on the outside and chewy on the inside.",
         "ingredients": [
             "All-purpose flour",
             "Butter, softened",
@@ -106,6 +109,7 @@
     {
         "id": 4,
         "name": "Chicken Alfredo Pasta",
+        "description": "Creamy pasta dish made with fettuccine noodles, tender chicken, and a rich Alfredo sauce.",
         "ingredients": [
             "Fettuccine pasta",
             "Chicken breast, sliced",
@@ -141,6 +145,7 @@
     {
         "id": 5,
         "name": "Mango Salsa Chicken",
+        "description": "Juicy chicken breasts topped with a sweet and tangy mango salsa, perfect for summer grilling.",
         "ingredients": [
             "Chicken thighs",
             "Mango, diced",
@@ -174,6 +179,7 @@
     {
         "id": 6,
         "name": "Quinoa Salad with Avocado",
+        "description": "A nutritious salad featuring quinoa, ripe avocado, cherry tomatoes, and a light lemon vinaigrette.",
         "ingredients": [
             "Quinoa, cooked",
             "Avocado, diced",
@@ -206,6 +212,7 @@
     {
         "id": 7,
         "name": "Tomato Basil Bruschetta",
+        "description": "Toasted bread slices topped with a flavorful mix of diced tomatoes, fresh basil, and balsamic glaze.",
         "ingredients": [
             "Baguette, sliced",
             "Tomatoes, diced",
@@ -239,6 +246,7 @@
     {
         "id": 8,
         "name": "Beef and Broccoli Stir-Fry",
+        "description": "A savory stir-fry of tender beef strips and crisp broccoli florets in a garlic and ginger sauce.",
         "ingredients": [
             "Beef sirloin, thinly sliced",
             "Broccoli florets",
@@ -274,6 +282,7 @@
     {
         "id": 9,
         "name": "Caprese Salad",
+        "description": "A simple yet elegant salad made with fresh tomatoes, mozzarella cheese, basil, and a drizzle of olive oil.",
         "ingredients": [
             "Tomatoes, sliced",
             "Fresh mozzarella cheese, sliced",
@@ -305,6 +314,7 @@
     {
         "id": 10,
         "name": "Shrimp Scampi Pasta",
+        "description": "Succulent shrimp cooked in a garlic butter and white wine sauce, served over a bed of pasta.",
         "ingredients": [
             "Linguine pasta",
             "Shrimp, peeled and deveined",
@@ -340,6 +350,7 @@
     {
         "id": 11,
         "name": "Chicken Biryani",
+        "description": "A fragrant rice dish cooked with marinated chicken, aromatic spices, and saffron for a rich flavor.",
         "ingredients": [
             "Basmati rice",
             "Chicken, cut into pieces",
@@ -385,6 +396,7 @@
     {
         "id": 12,
         "name": "Chicken Karahi",
+        "description": "A spicy and flavorful Pakistani dish made with chicken, tomatoes, and a blend of traditional spices.",
         "ingredients": [
             "Chicken, cut into pieces",
             "Tomatoes, chopped",
@@ -429,6 +441,7 @@
     {
         "id": 13,
         "name": "Aloo Keema",
+        "description": "A comforting dish of minced meat and potatoes cooked with spices and herbs, served with rice or bread.",
         "ingredients": [
             "Ground beef",
             "Potatoes, peeled and diced",
@@ -467,6 +480,7 @@
     {
         "id": 14,
         "name": "Chapli Kebabs",
+        "description": "Spicy, juicy minced meat patties flavored with traditional spices and grilled to perfection.",
         "ingredients": [
             "Ground beef",
             "Onions, finely chopped",
@@ -505,6 +519,7 @@
     {
         "id": 15,
         "name": "Saag (Spinach) with Makki di Roti",
+        "description": "A traditional Punjabi dish of slow-cooked spinach served with cornmeal flatbread, known as Makki di Roti.",
         "ingredients": [
             "Mustard greens, washed and chopped",
             "Spinach, washed and chopped",
@@ -539,6 +554,7 @@
     {
         "id": 16,
         "name": "Japanese Ramen Soup",
+        "description": "A hearty and comforting Japanese noodle soup with savory broth, meat, vegetables, and soft-boiled eggs.",
         "ingredients": [
             "Ramen noodles",
             "Chicken broth",
@@ -576,6 +592,7 @@
     {
         "id": 17,
         "name": "Moroccan Chickpea Tagine",
+        "description": "A flavorful Moroccan stew made with chickpeas, vegetables, and spices, slow-cooked to perfection.",
         "ingredients": [
             "Chickpeas, cooked",
             "Tomatoes, chopped",
@@ -614,6 +631,7 @@
     {
         "id": 18,
         "name": "Korean Bibimbap",
+        "description": "A Korean rice dish topped with assorted vegetables, meat, and a fried egg, mixed with spicy gochujang sauce.",
         "ingredients": [
             "Cooked white rice",
             "Beef bulgogi (marinated and grilled beef slices)",
@@ -650,6 +668,7 @@
     {
         "id": 19,
         "name": "Greek Moussaka",
+        "description": "A Greek casserole made with layers of eggplant, minced meat, and béchamel sauce, baked until golden.",
         "ingredients": [
             "Eggplants, sliced",
             "Ground lamb or beef",
@@ -693,6 +712,7 @@
     {
         "id": 20,
         "name": "Butter Chicken (Murgh Makhani)",
+        "description": "A rich and creamy Indian curry made with tender chicken, tomatoes, butter, and a blend of spices.",
         "ingredients": [
             "Chicken thighs, boneless and skinless",
             "Yogurt",
@@ -729,6 +749,7 @@
     {
         "id": 21,
         "name": "Thai Green Curry",
+        "description": "A spicy and aromatic Thai curry made with coconut milk, green curry paste, vegetables, and your choice of protein.",
         "ingredients": [
             "Chicken thighs, boneless and skinless",
             "Green curry paste",
@@ -763,6 +784,7 @@
     {
         "id": 22,
         "name": "Mango Lassi",
+        "description": "A refreshing and sweet yogurt-based drink made with ripe mangoes, perfect for cooling down on a hot day.",
         "ingredients": [
             "Ripe mango, peeled and diced",
             "Yogurt",
@@ -794,6 +816,7 @@
     {
         "id": 23,
         "name": "Italian Tiramisu",
+        "description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder.",
         "ingredients": [
             "Espresso, brewed and cooled",
             "Ladyfinger cookies",
@@ -828,6 +851,7 @@
     {
         "id": 24,
         "name": "Turkish Kebabs",
+        "description": "Grilled skewers of marinated meat, typically lamb or chicken, served with rice and fresh vegetables.",
         "ingredients": [
             "Ground lamb or beef",
             "Onions, grated",
@@ -862,6 +886,7 @@
     {
         "id": 25,
         "name": "Blueberry Banana Smoothie",
+        "description": "A healthy and delicious smoothie made with fresh blueberries, ripe bananas, and a splash of milk or yogurt.",
         "ingredients": [
             "Blueberries, fresh or frozen",
             "Banana, peeled and sliced",
@@ -892,6 +917,7 @@
     {
         "id": 26,
         "name": "Mexican Street Corn (Elote)",
+        "description": "Grilled corn on the cob slathered with a mixture of mayonnaise, cheese, chili powder, and lime juice.",
         "ingredients": [
             "Corn on the cob",
             "Mayonnaise",
@@ -921,6 +947,7 @@
     {
         "id": 27,
         "name": "Russian Borscht",
+        "description": "A hearty and vibrant beet soup from Russia, often served with a dollop of sour cream and fresh dill.",
         "ingredients": [
             "Beets, peeled and shredded",
             "Cabbage, shredded",
@@ -956,6 +983,7 @@
     {
         "id": 28,
         "name": "South Indian Masala Dosa",
+        "description": "A South Indian savory crepe made from fermented rice and lentil batter, filled with spiced potato filling.",
         "ingredients": [
             "Dosa batter (fermented rice and urad dal batter)",
             "Potatoes, boiled and mashed",
@@ -992,6 +1020,7 @@
     {
         "id": 29,
         "name": "Lebanese Falafel Wrap",
+        "description": "A Middle Eastern wrap filled with crispy falafel, fresh vegetables, and a tangy tahini sauce.",
         "ingredients": [
             "Falafel balls",
             "Whole wheat or regular wraps",
@@ -1025,6 +1054,7 @@
     {
         "id": 30,
         "name": "Brazilian Caipirinha",
+        "description": "A refreshing Brazilian cocktail made with cachaça, sugar, and fresh lime, served over ice.",
         "ingredients": [
             "Cachaça (Brazilian sugarcane spirit)",
             "Lime, cut into wedges",

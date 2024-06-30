@@ -4,8 +4,8 @@ import { PiBowlFoodDuotone } from 'react-icons/pi';
 
 export default function NavBar() {
     return (
-        <nav className="mt-[1rem] sticky top-[1rem] px-[1rem]">
-            <div className="border-style rounded-lg py-[0.7rem] px-[1.7rem] bg-white flex flex-row items-center justify-start gap-[1.7rem]">
+        <nav className="z-50 sm:mt-[1rem] sticky top-0 sm:top-[1rem] sm:px-[1rem]">
+            <div className="border-style rounded-none sm:rounded-lg py-[0.7rem] px-[1.7rem] bg-white flex flex-row items-center justify-start gap-[1.7rem]">
                 <h4 className="md:flex-grow flex-grow-0 flex flex-row items-center gap-1">
                     <PiBowlFoodDuotone />{' '}
                     <span className="md:flex hidden">appetittö</span>
