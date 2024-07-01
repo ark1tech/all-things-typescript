@@ -1,3 +1,5 @@
+// Router Parameter Typing
+
 export interface URLParams {
     params: {
         id: number;

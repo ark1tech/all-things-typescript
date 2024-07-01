@@ -2,6 +2,10 @@ import { FiSearch } from 'react-icons/fi';
 import './Search.css';
 
 export default function Search() {
+
+    // Not working for now 
+    // TODO : Implement this 
+
     return (
         <div className="w-full flex-grow search-container">
             <FiSearch className="text-[#a7a7a7]" />

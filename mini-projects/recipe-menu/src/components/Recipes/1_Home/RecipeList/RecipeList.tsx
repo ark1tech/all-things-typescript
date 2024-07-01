@@ -15,11 +15,12 @@ import { MdSortByAlpha } from 'react-icons/md';
 
 import { Recipe } from '@/types/recipe';
 
-import HeartButton from '@/components/HeartButton/HeartButton';
-import MealOfTheDay from '@app_c/HomeRecipes/MealOfTheDay/MealOfTheDay';
-import RecentRecipes from '@app_c/HomeRecipes/RecentRecipes/RecentRecipes';
+import HeartButton from '@components/Recipes/_atoms/buttons/HeartButton/HeartButton';
+import RecipeOfTheDay from '@components/Recipes/1_Home/RecipeOfTheDay';
+import RecentRecipes from '@components/Recipes/1_Home/RecentRecipes';
 
 export default function RecipeList() {
+    // Fetch recipes from /api/recipes route
     const [recipes, setRecipes] = useState<Recipe[]>([]);
 
     useEffect(() => {
@@ -31,14 +32,16 @@ export default function RecipeList() {
         fetchData();
     }, []);
 
+    // RecipeOfTheDay and RecentRecipes are hardcoded for now
     const random_index = Math.floor(Math.random() * recipes.length);
     const random_recipe = recipes[random_index];
     const recent_recipes = recipes.slice(0, 7);
 
     return (
         <div className="flex flex-col gap-[2rem]">
+            {/* Top Section */}
             <div className="flex h-full flex-col gap-[1rem] sm:flex-row">
-                <MealOfTheDay {...random_recipe} />
+                <RecipeOfTheDay {...random_recipe} />
                 <RecentRecipes {...recent_recipes} />
             </div>
             <div className="flex flex-row items-center justify-between">
@@ -49,8 +52,11 @@ export default function RecipeList() {
                     Sort
                 </p>
             </div>
+
+            {/* Cards Section */}
             <div className="grid grid-cols-1 gap-[1.5rem] sm:grid-cols-2 lg:grid-cols-3">
                 {recipes.map((recipe) => (
+                    // Card styling
                     <section
                         key={recipe.name}
                         className="opacity-card border-style relative flex h-full w-full flex-col overflow-clip rounded-lg bg-[#ffffff66]"

@@ -1,5 +1,5 @@
-import RecipeList from '@/app/_components/HomeRecipes/RecipeList/RecipeList';
-import MainHeader from '@app_c/MainHeader/MainHeader';
+import RecipeList from '@components/Recipes/1_Home/RecipeList/RecipeList';
+import MainHeader from '@components/Recipes/1_Home/MainHeader';
 
 export default function Home() {
     return (

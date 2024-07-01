@@ -280,10 +280,10 @@ main {
 
 @keyframes spin {
     from {
-        transform: rotate(0deg) scale(5);
+        transform: rotate(0deg) scale(4.5);
     }
     to {
-        transform: rotate(360deg) scale(5);
+        transform: rotate(360deg) scale(4.5);
     }
 }
 
@@ -297,7 +297,8 @@ main {
     background: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(93, 93, 93, 0.5);
+    background: rgba(187, 187, 187, 0.5);
+    border-radius: 2000px;
 }
 ::-webkit-scrollbar-corner {
     background: rgba(0, 0, 0, 0);

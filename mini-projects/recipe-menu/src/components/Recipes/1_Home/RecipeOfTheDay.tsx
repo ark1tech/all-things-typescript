@@ -7,12 +7,16 @@ import { BiBowlRice } from 'react-icons/bi';
 import { AiOutlineFire } from 'react-icons/ai';
 import { MdOutlineFoodBank } from 'react-icons/md';
 
-import HeartButton from '@/components/HeartButton/HeartButton';
 import { Recipe } from '@/types/recipe';
 
-import GetRecipeButton from '@app_c/GetRecipe/GetRecipe';
+import HeartButton from '@components/Recipes/_atoms/buttons/HeartButton/HeartButton';
+import GetRecipeButton from '@components/Recipes/_atoms/buttons/GetRecipeButton';
 
-const MealOfTheDay: React.FC<Recipe> = (recipe): React.JSX.Element => {
+const RecipeOfTheDay: React.FC<Recipe> = (recipe): React.JSX.Element => {
+
+    // Hardcoded "Recipe of the Day" for now (randomized)
+    // TODO : Implement this
+
     return (
         <section
             key={recipe.name}
@@ -81,4 +85,4 @@ const MealOfTheDay: React.FC<Recipe> = (recipe): React.JSX.Element => {
     );
 };
 
-export default MealOfTheDay;
+export default RecipeOfTheDay;

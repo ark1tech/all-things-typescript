@@ -1,3 +1,5 @@
+// Recipe Typing
+
 export type Recipe = {
     id: number;
     image: string;
@@ -14,12 +16,12 @@ export type Recipe = {
     mealType: string[];
 };
 
-export type RecipeCard = Pick<
-    Recipe,
-    | 'image'
-    | 'name'
-    | 'description'
-    | 'mealType'
-    | 'prepTimeMinutes'
-    | 'cookTimeMinutes'
->;
+// export type RecipeCard = Pick<
+//     Recipe,
+//     | 'image'
+//     | 'name'
+//     | 'description'
+//     | 'mealType'
+//     | 'prepTimeMinutes'
+//     | 'cookTimeMinutes'
+// >;

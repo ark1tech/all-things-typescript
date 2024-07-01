@@ -9,6 +9,8 @@ export default function HeartButton() {
     function toggleHeart() {
         setHeart(!heart);
     }
+    
+    // TODO : Combine 2 versions of the heart button by passing a prop instead
 
     return (
         <div
