@@ -1,0 +1,7 @@
+.opacity-card:hover > .hover-opacity {
+    opacity: 0.5;
+}
+
+.hover-opacity {
+    opacity: 0.1;
+}

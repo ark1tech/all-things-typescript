@@ -11,17 +11,14 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@/styles/*": [
-        "./src/styles/*"
-      ],
       "@/public/*": [
         "./public/*"
       ],
-      "@/components/*": [
-        "./src/components/*"
-      ],
       "@/*": [
-        "src/*"
+        "./src/*"
+      ],
+      "@app_c/*": [
+        "./src/app/_components/*"
       ]
     },
     "esModuleInterop": true,
@@ -42,7 +39,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/[id]/[recipeName]/_components/RecipeDetails/HomeRecipeNav"  ],
   "exclude": [
     "node_modules"
   ]
