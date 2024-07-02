@@ -5,6 +5,7 @@ type UnsureString = string | null | undefined;
 type SureString = NonNullable<UnsureString>;
 
 // Promise & Awaited
+// make async functions typesafe
 type PromiseString = Promise<string>;
 type Result = Awaited<PromiseString>;
 
@@ -12,7 +13,7 @@ type Result = Awaited<PromiseString>;
 type UpperCaseString = Uppercase<"a" | "b">
 type LowerCaseString = Lowercase<UpperCaseString>
 type CapitalCaseString = Capitalize<"cat" | "dog">
-type Uncapitalize = Capitalize<CapitalCaseString>
+type UncapitalizeString = Uncapitalize<CapitalCaseString>
 
 // Applications:
 
